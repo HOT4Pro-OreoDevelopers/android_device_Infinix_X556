@@ -97,6 +97,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/multi_init.rc:root/multi_init.rc \
     $(LOCAL_PATH)/rootdir/init.microtrust.rc:root/init.microtrust.rc 
 
+# RIL
+PRODUCT_PACKAGES += \
+   android.hardware.radio@1.0 \
+   android.hardware.radio.deprecated@1.0 \
+   libccci_util \
+   muxreport \
+   terservice
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
