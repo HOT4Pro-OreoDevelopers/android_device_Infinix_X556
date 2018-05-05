@@ -53,8 +53,8 @@ LOCAL_SHARED_LIBRARIES := \
 
 
 LOCAL_C_INCLUDES:= \
-	device/leagoo/M8_pro/libgem/inc \
-	device/leagoo/M8_pro/libgem/gralloc_extra/include/
+	device/Infinix/X556/libgem/inc \
+	device/Infinix/X556/libgem/gralloc_extra/include/
 
 
 LOCAL_MODULE := guiext-test
@@ -87,8 +87,8 @@ LOCAL_SHARED_LIBRARIES := \
 	libgralloc_extra
 
 LOCAL_C_INCLUDES:= \
-	device/leagoo/M8_pro/libgem/inc \
-	device/leagoo/M8_pro/libgem/gralloc_extra/include/
+	device/Infinix/X556/libgem/inc \
+	device/Infinix/X556/libgem/gralloc_extra/include/
 
 
 LOCAL_MODULE := guiext-test-surface
@@ -116,7 +116,7 @@ LOCAL_SHARED_LIBRARIES := \
 	libui_ext
 
 LOCAL_C_INCLUDES:= \
-	device/leagoo/M8_pro/libgem/inc
+	device/Infinix/X556/libgem/inc
 
 
 LOCAL_MODULE := wdt-test
