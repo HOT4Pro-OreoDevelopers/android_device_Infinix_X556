@@ -1,6 +1,7 @@
 import init.connectivity.rc
 import init.project.rc
 import multi_init.rc
+import init.microtrust.rc
 import init.modem.rc
 
 on early-init
